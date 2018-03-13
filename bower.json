@@ -1,0 +1,8 @@
+{
+  "name": "angularjs_mini_project",
+  "dependencies": {
+    "angular":"latest",
+    "angular-ui-router": "latest",
+    "ngstorage":"latest"
+  }
+}

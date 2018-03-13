@@ -1,0 +1,11 @@
+{
+  "name": "AngularJS_Mini_Project",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "jwt-simple": "^0.5.1",
+    "mongodb": "^2.2.32",
+    "mysql": "^2.15.0"
+  }
+}

@@ -1,0 +1,26 @@
+<style>
+    .shadow-container{
+        margin: 0 auto;
+        box-shadow: 0 0 6px #000;
+        border-radius: 5px;
+        padding: 10px;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <h2>Login form</h2>
+        <form ng-submit="login({'uname':uname,'upwd':upwd})" class="col-sm-12 col-lg-3 shadow-container">
+            <div class="form-group">
+                <label>Uname</label>
+                <input type="text" class="form-control" ng-model="uname">
+            </div>
+            <div class="form-group">
+                <label>Upwd</label>
+                <input type="password" class="form-control" ng-model="upwd">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>
